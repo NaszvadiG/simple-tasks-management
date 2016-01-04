@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Simple Tasks Management</title>
-    <link rel="icon" href="assets/images/favicon.jpg">
+    <link rel="icon" href="<?php echo assets_url('images/favicon.JPG'); ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/me/css/style.css') ?>">
     <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
