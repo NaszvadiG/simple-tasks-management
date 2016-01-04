@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+body{
+    font-family: Amaranth;
+}
+
+#my-app .container{
+    padding: 0 120px;
+}
+
+table th{
+    text-align: center;
+}
+
+table td{
+    vertical-align: middle !important;
+}
+
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle){
+    border-radius: 0;
+}
+
+.btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child){
+    border-radius: 0;
+}
+
+.btn-xs, .btn-group-xs > .btn{
+    border-radius: 0;
+}

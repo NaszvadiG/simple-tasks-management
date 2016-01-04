@@ -1,0 +1,29 @@
+.my-bg-color	{
+	background-image:linear-gradient(to bottom,#5cb85c 0,#419641 100%) !important;
+}
+.footer	{
+	margin: 50px 0 0 0 !important;
+	border-color: #419641 !important;
+}
+.header	{
+	border-color: #419641 !important;
+}
+.copyright	{
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 15px;
+	color: white;
+}
+.copyright a	{
+	color:white;
+}
+.main-content	{
+	min-height: 400px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus	{
+	background-color:#5cb85c !important;
+}
+.navbar-form	{
+	border-bottom: none !important;
+	border-top: none !important;
+}
